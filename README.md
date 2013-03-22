@@ -1,4 +1,4 @@
-storm-srm-client-rpm
+storm-client-rpm
 ====================
 
 Packaging code for the storm srm client (https://github.com/italiangrid/storm-client).
@@ -8,13 +8,13 @@ Packaging code for the storm srm client (https://github.com/italiangrid/storm-cl
 First clone the repo:
 
 ```bash
-git clone https://github.com/italiangrid/storm-srm-client-rpm.git
+git clone https://github.com/italiangrid/storm-client-rpm.git
 ```
 
 then run:
 
 ```bash
-cd storm-srm-client-rpm 
+cd storm-client-rpm 
 make rpm
 ```
 
