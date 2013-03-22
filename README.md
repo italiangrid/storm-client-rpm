@@ -14,6 +14,7 @@ git clone https://github.com/italiangrid/storm-srm-client-rpm.git
 then run:
 
 ```bash
+cd storm-srm-client-rpm 
 make rpm
 ```
 
