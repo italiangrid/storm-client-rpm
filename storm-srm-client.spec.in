@@ -17,12 +17,12 @@ Name:           storm-srm-client
 Version:        1.6.0
 Release:	7%{?dist}
 Vendor:         EMI
-License:        Apache License
-URL:            http://grid-it.cnaf.infn.it
-Source:         storm-srm-client-%{version}.tar.gz
+License:        ASL 2.0
+URL:            https://github.com/italiangrid/storm-client.git
+Source: 	%{name}-%{version}.tar.gz
 Group:          Applications/System
 AutoReqProv:    yes
-BuildRoot:      %{_builddir}/var/tmp/%{name}-%{version}
+BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 Summary:        Provides the the StoRM SRM v2.2 clients 
 
 BuildRequires: automake
