@@ -14,8 +14,8 @@
 
 
 Name:           storm-srm-client
-Version:        1.6.0
-Release:	8%{?dist}
+Version:        1.6.1
+Release:	0%{?dist}
 Vendor:         EMI
 License:        ASL 2.0
 URL:            https://github.com/italiangrid/storm-client.git
@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Oct 23 2013 Andrea Ceccanti <andrea.ceccanti@cnaf.infn.it> - 1.6.1-0
+- More informative error messages
+
 * Mon May 27 2013 Andrea Ceccanti <andrea.ceccanti@cnaf.infn.it> - 1.6.0-8
 - Refactored packaging
 
