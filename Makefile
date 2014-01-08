@@ -1,6 +1,6 @@
 name=storm-srm-client
 
-tag=CLI_1.6
+tag=master
 
 # the Github repo
 git=git://github.com/italiangrid/storm-client.git
